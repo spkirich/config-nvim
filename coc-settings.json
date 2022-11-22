@@ -21,5 +21,20 @@
         true,
 
     "explorer.icon.enableNerdfont":
-        true
+        true,
+
+    "explorer.buffer.root.template":
+        "[icon] >> B [hidden | 1]",
+
+    "explorer.buffer.child.template":
+        "[git | 2] [selection | 1] [bufnr] [readonly | modified | 1] [name]",
+
+    "explorer.file.root.template":
+        "[icon] >> F [hidden | 1] [root]",
+
+    "explorer.file.child.template":
+        "[git | 2] [selection | clip | 1] [icon | 1] [readonly | modified | 1] [filename]",
+
+    "Lua.telemetry.enable":
+        false
 }
