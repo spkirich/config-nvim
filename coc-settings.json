@@ -18,5 +18,8 @@
     },
 
     "codeLens.enable":
+        true,
+
+    "explorer.icon.enableNerdfont":
         true
 }
