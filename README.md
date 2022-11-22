@@ -8,7 +8,7 @@ Features:
 [packer](https://github.com/wbthomason/packer.nvim)
 
 - :pencil: Completion engine:
-[CoC](https://github.com/neoclide/coc.nvim)
+[Coc](https://github.com/neoclide/coc.nvim)
 
 - :art: Color scheme:
 [Tokyo Night](https://github.com/folke/tokyonight.nvim)
