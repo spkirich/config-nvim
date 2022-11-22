@@ -22,12 +22,14 @@ vim.opt.signcolumn = "yes"
 local packer = require("packer")
 
 packer.startup(function(use)
+
+    -- Plugin manager
     use "wbthomason/packer.nvim"
 
-    -- Conquer of Completion
+    -- Completion engine
     use {"neoclide/coc.nvim", branch = "release"}
 
-    -- Tokyo Night
+    -- Color scheme
     use "folke/tokyonight.nvim"
 
     end
