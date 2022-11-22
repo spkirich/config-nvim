@@ -1,0 +1,22 @@
+{
+    "languageserver":
+    {
+        "haskell":
+        {
+            "command":
+                "haskell-language-server-wrapper",
+
+            "args":
+                ["--lsp"],
+
+            "rootPatterns":
+                ["*.cabal", "hie.yaml", "package.yaml", "stack.yaml"],
+
+            "filetypes":
+                ["haskell", "hs", "lhs"]
+        }
+    },
+
+    "codeLens.enable":
+        true
+}
