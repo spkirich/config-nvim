@@ -35,6 +35,8 @@ packer.startup(function(use)
     end
 )
 
+-- Diagnostic
+
 vim.api.nvim_set_keymap(
     "n", "[g", "<Plug>(coc-diagnostics-prev)", {
         silent = true
@@ -46,6 +48,8 @@ vim.api.nvim_set_keymap(
         silent = true
     }
 )
+
+-- Navigation
 
 vim.api.nvim_set_keymap(
     "n", "gd", "<Plug>(coc-definition)", {
@@ -70,6 +74,8 @@ vim.api.nvim_set_keymap(
         silent = true
     }
 )
+
+-- Actions
 
 vim.api.nvim_set_keymap(
     "n", "<leader>rn", "<Plug>(coc-rename)", {
@@ -107,8 +113,16 @@ vim.api.nvim_set_keymap(
     }
 )
 
+-- Tools
+
 vim.api.nvim_set_keymap(
-    "n", "<leader>ex", "<Cmd>CocCommand explorer<CR>", {
+    "n", "<leader>e", "<Cmd>CocCommand explorer<CR>", {
+        silent = true
+    }
+)
+
+vim.api.nvim_set_keymap(
+    "n", "<leader>f", "<Cmd>call CocActionAsync('format')<CR>", {
         silent = true
     }
 )
