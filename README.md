@@ -1,6 +1,8 @@
 # Neovim configuration
 
-My Neovim configuration files.
+My Neovim looks like this:
+
+![My Neovim Screenshot](screenshot.png)
 
 Features:
 
