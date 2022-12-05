@@ -40,18 +40,18 @@ git clone https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-All required Neovim plugins could be installed then with the following
+All required Neovim plugins should be installed then with the following
 Neovim command:
 
 ``` vim
 :PackerInstall
 ```
 
-Any required coc extension could be intslled in the same way:
+Any required coc extension may be intslled in the same way:
 
 ``` vim
 :CocInstall <coc-extension-name>
 ```
 
-At last, Haskell Language Server could be managed with
+At last, Haskell Language Server may be managed with
 [GHCup](https://www.haskell.org/ghcup/).
