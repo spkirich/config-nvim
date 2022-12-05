@@ -17,6 +17,7 @@ The following coc extensions are enabled:
 
 - [coc-clangd](https://github.com/clangd/coc-clangd)
 - [coc-explorer](https://github.com/weirongxu/coc-explorer)
+- [coc-git](https://github.com/neoclide/coc-git)
 - [coc-json](https://github.com/neoclide/coc-json)
 - [coc-pyright](https://github.com/fannheyward/coc-pyright)
 - [coc-rust-analyzer](https://github.com/fannheyward/coc-rust-analyzer)

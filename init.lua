@@ -30,6 +30,15 @@ vim.cmd("colorscheme tokyonight")
 -- | Enable Sign Column
 vim.opt.signcolumn = "yes"
 
+-- | Highlight diff add group with green
+vim.cmd("highlight DiffAdd guibg=NONE guifg=green")
+
+-- | Highlight diff change group with yellow
+vim.cmd("highlight DiffChange guibg=NONE guifg=yellow")
+
+-- | Highlight diff delete group with red
+vim.cmd("highlight DiffDelete guibg=NONE guifg=red")
+
 -- * Code Actions
 
 vim.api.nvim_set_keymap("n", "<leader>rn",
