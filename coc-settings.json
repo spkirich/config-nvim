@@ -33,7 +33,7 @@
         "[icon] >> F [hidden | 1] [root]",
 
     "explorer.file.child.template":
-        "[git | 2] [selection | clip | 1] [icon | 1] [readonly | modified | 1] [filename]",
+        "[git | 2] [selection | clip | 1] [indent][icon | 1] [readonly | modified | 1] [filename]",
 
     "texlab.build.onSave":
         true,
