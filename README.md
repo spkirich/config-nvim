@@ -27,10 +27,16 @@ The following coc extensions are recommended:
 
 ## How to install
 
-At first, packer should be intslled with the following Bash command:
+At first, this repo should be cloned with the following Bash command:
 
 ``` bash
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+git clone https://github.com/spkirich/config-nvim ~/.config/nvim
+```
+
+Also, packer should be cloned in the same way:
+
+``` bash
+git clone https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
@@ -41,12 +47,11 @@ Neovim command:
 :PackerInstall
 ```
 
-Any required coc extension could be intslled with the following Neovim
-command:
+Any required coc extension could be intslled in the same way:
 
 ``` vim
 :CocInstall <coc-extension-name>
 ```
 
-At last, Haskell Language Server could be installed with
+At last, Haskell Language Server could be managed with
 [GHCup](https://www.haskell.org/ghcup/).
