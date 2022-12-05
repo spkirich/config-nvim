@@ -24,16 +24,16 @@
         true,
 
     "explorer.buffer.root.template":
-        "[icon] >> B [hidden | 1]",
+        "[icon] >> B",
 
     "explorer.buffer.child.template":
-        "[git | 2] [selection | 1] [bufnr] [readonly | modified | 1] [name]",
+        "[git | 2] [readonly | modified | 1] [bufnr] [name]",
 
     "explorer.file.root.template":
-        "[icon] >> F [hidden | 1] [root]",
+        "[icon] >> F [root]",
 
     "explorer.file.child.template":
-        "[git | 2] [selection | clip | 1] [indent][icon | 1] [readonly | modified | 1] [filename]",
+        "[git | 2] [readonly | modified | 1] [indent][icon | 1] [filename]",
 
     "texlab.build.onSave":
         true,
