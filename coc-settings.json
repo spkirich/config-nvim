@@ -35,6 +35,9 @@
     "explorer.file.child.template":
         "[git | 2] [readonly | modified | 1] [indent][icon | 1] [filename]",
 
+    "texlab.build.args":
+        ["--auxdir=aux", "--emulate-aux-dir", "--pdf", "%f"],
+
     "texlab.build.onSave":
         true,
 
